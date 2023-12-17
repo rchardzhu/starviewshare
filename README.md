@@ -24,3 +24,13 @@ pip install starviewshare
 ```bash
 pip install starviewshare --upgrade
 ```
+
+## Examples
+
+
+- 验证安装是否成功：输出starviewshare版本
+
+```python
+import starviewshare as svs
+print(svs.__version__)
+```
