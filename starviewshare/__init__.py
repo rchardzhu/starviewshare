@@ -6,4 +6,4 @@
 # 更多量化投资知识、代码，请加入Python量化实战：https://t.zsxq.com/12uaiVhV5
 """
 
-__version__ = '0.1.1'
+__version__ = '0.1.2'

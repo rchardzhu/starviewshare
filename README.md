@@ -27,10 +27,20 @@ pip install starviewshare --upgrade
 
 ## Examples
 
-
 - 验证安装是否成功：输出starviewshare版本
 
 ```python
 import starviewshare as svs
 print(svs.__version__)
+```
+
+### stock
+
+- 股票龙虎榜
+```python
+import starviewshare as svs
+svs.stock.get_daily_billboard()
+start_date = '2023-12-08'
+end_date = '2023-12-17'
+svs.stock.get_daily_billboard(start_date=start_date,end_date=end_date)
 ```
